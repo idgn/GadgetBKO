@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /search/
+
+Sitemap: https://gadgetbko.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
