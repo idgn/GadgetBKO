@@ -5,13 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- TITRE OPTIMISÉ SEO -->
+  <!-- TITRE OPTIMISÉ SEO (55-60 caractères) -->
   <title>GPS SinoTrack ST-901 Mali | Traqueur Véhicule 4G | Prix 30.000-40.000 FCFA</title>
   
-  <!-- DESCRIPTION OPTIMISÉE -->
+  <!-- DESCRIPTION OPTIMISÉE (150-160 caractères) -->
   <meta name="description" content="Vente GPS SinoTrack ST-901 au Mali ✓ Suivi temps réel ✓ Coupure moteur à distance ✓ Prix: 30.000-40.000 FCFA ✓ Livraison Bamako ✓ WhatsApp: +22383424409">
   
-  <!-- KEYWORDS -->
+  <!-- KEYWORDS STRATÉGIQUES -->
   <meta name="keywords" content="GPS Mali, GPS voiture Bamako, SinoTrack ST-901, tracker véhicule, GPS 4G Mali, GPS avec relais, sécurité véhicule Mali, prix GPS, GadgetBKO, installation GPS Bamako">
   
   <!-- OPEN GRAPH -->
@@ -49,8 +49,9 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- ============================================
-       GOOGLE ANALYTICS (GA4)
+       GOOGLE ANALYTICS (GA4) - INTÉGRÉ
        ============================================ -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7ZTBEQ2TB"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -60,23 +61,26 @@
   </script>
 
   <!-- ============================================
-       META PIXEL (FACEBOOK) - INSTALLATION CORRECTE
+       META PIXEL (FACEBOOK) - INTÉGRÉ
        ============================================ -->
+  <!-- Meta Pixel Code -->
   <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2609724382809541');
-    fbq('track', 'PageView');
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2609724382809541');
+  fbq('track', 'PageView');
   </script>
   <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2609724382809541&ev=PageView&noscript=1"/>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=2609724382809541&ev=PageView&noscript=1"/>
   </noscript>
+  <!-- End Meta Pixel Code -->
   
   <!-- SCHEMA.ORG STRUCTURED DATA -->
   <script type="application/ld+json">
@@ -190,13 +194,13 @@
 
 <!-- MOBILE ACTION BAR -->
 <div class="mobile-action-bar d-md-none">
-  <a href="tel:+22383424409" class="call-btn" aria-label="Appeler GadgetBKO Mali" onclick="fbq('track', 'Contact');">
+  <a href="tel:+22383424409" class="call-btn" aria-label="Appeler GadgetBKO Mali" onclick="fbq('track', 'Contact'); gtag('event', 'phone_click', {'send_to': 'G-Q7ZTBEQ2TB'});">
     <i class="bi bi-telephone-fill"></i> Appeler
   </a>
   <a href="https://wa.me/22383424409?text=Bonjour%20GadgetBKO,%20je%20suis%20intéressé%20par%20le%20GPS%20SinoTrack%20au%20Mali" 
      class="wa-btn" 
      aria-label="Contacter sur WhatsApp pour GPS Mali"
-     onclick="fbq('track', 'Lead');">
+     onclick="fbq('track', 'Lead'); gtag('event', 'whatsapp_click', {'send_to': 'G-Q7ZTBEQ2TB'});">
     <i class="bi bi-whatsapp"></i> WhatsApp
   </a>
 </div>
@@ -207,9 +211,11 @@
     <a class="navbar-brand fw-bold" href="/" title="GadgetBKO Mali - GPS SinoTrack ST-901">
       <i class="bi bi-geo-alt-fill me-2"></i>GadgetBKO Mali
     </a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menu navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a href="#produits" class="nav-link">GPS Mali</a></li>
@@ -237,10 +243,10 @@
         <div class="mt-4">
           <a href="https://wa.me/22383424409?text=Bonjour,%20je%20suis%20intéressé%20par%20le%20GPS%20SinoTrack%20au%20Mali" 
              class="btn btn-success btn-lg"
-             onclick="fbq('track', 'Lead');">
+             onclick="fbq('track', 'Lead'); gtag('event', 'conversion_hero', {'send_to': 'G-Q7ZTBEQ2TB'});">
             <i class="bi bi-whatsapp"></i> Commander via WhatsApp
           </a>
-          <a href="tel:+22383424409" class="btn btn-outline-light btn-lg ms-2" onclick="fbq('track', 'Contact');">
+          <a href="tel:+22383424409" class="btn btn-outline-light btn-lg ms-2" onclick="fbq('track', 'Contact'); gtag('event', 'phone_click', {'send_to': 'G-Q7ZTBEQ2TB'});">
             <i class="bi bi-telephone"></i> +223 83 42 44 09
           </a>
         </div>
@@ -271,6 +277,7 @@
     <h2 class="text-center mb-5 fw-bold">Nos GPS SinoTrack Disponibles au Mali</h2>
 
     <div class="row g-4">
+
       <!-- ST-901L -->
       <div class="col-md-6" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
         <div class="card h-100 shadow product-card">
@@ -310,7 +317,7 @@
             
             <a href="https://wa.me/22383424409?text=Bonjour,%20je%20veux%20commander%20le%20GPS%20SinoTrack%20ST-901L%20avec%20relais%20(40.000%20FCFA)" 
                class="btn btn-primary btn-lg w-100 mt-3"
-               onclick="fbq('track', 'AddToCart', {content_name: 'ST-901L avec relais', content_price: 40000, currency: 'XOF'});"
+               onclick="fbq('track', 'AddToCart', {content_name: 'ST-901L avec relais', content_price: 40000, currency: 'XOF'}); gtag('event', 'add_to_cart', {items: [{id: 'ST-901L', name: 'GPS ST-901L avec relais', price: 40000, currency: 'XOF'}]});"
                aria-label="Commander GPS ST-901L avec relais au Mali">
               <i class="bi bi-whatsapp me-2"></i> Commander ce GPS
             </a>
@@ -357,7 +364,7 @@
             
             <a href="https://wa.me/22383424409?text=Bonjour,%20je%20veux%20commander%20le%20GPS%20SinoTrack%20ST-901%20sans%20relais%20(30.000%20FCFA)" 
                class="btn btn-success btn-lg w-100 mt-3"
-               onclick="fbq('track', 'AddToCart', {content_name: 'ST-901 sans relais', content_price: 30000, currency: 'XOF'});"
+               onclick="fbq('track', 'AddToCart', {content_name: 'ST-901 sans relais', content_price: 30000, currency: 'XOF'}); gtag('event', 'add_to_cart', {items: [{id: 'ST-901', name: 'GPS ST-901 sans relais', price: 30000, currency: 'XOF'}]});"
                aria-label="Commander GPS ST-901 sans relais au Mali">
               <i class="bi bi-whatsapp me-2"></i> Commander ce GPS
             </a>
@@ -415,6 +422,7 @@
       </div>
     </div>
     
+    <!-- AVANTAGES SECONDAIRES -->
     <div class="row text-center g-4 mt-4">
       <div class="col-md-4">
         <i class="bi bi-lightning-charge fs-1 text-warning"></i>
@@ -441,6 +449,7 @@
     <h2 class="text-center fw-bold mb-4">Questions Fréquentes - GPS Mali</h2>
 
     <div class="accordion accordion-flush" id="faqAccordion">
+
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
@@ -508,6 +517,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -527,7 +537,7 @@
             <p>Commandez directement via WhatsApp</p>
             <a href="https://wa.me/22383424409" 
                class="btn btn-success btn-lg w-100"
-               onclick="fbq('track', 'Lead');">
+               onclick="fbq('track', 'Lead'); gtag('event', 'whatsapp_contact', {'send_to': 'G-Q7ZTBEQ2TB'});">
               <i class="bi bi-whatsapp me-2"></i> Écrire sur WhatsApp
             </a>
           </div>
@@ -542,7 +552,7 @@
             <p>Appelez-nous pour plus d'informations</p>
             <a href="tel:+22383424409" 
                class="btn btn-info btn-lg w-100"
-               onclick="fbq('track', 'Contact');">
+               onclick="fbq('track', 'Contact'); gtag('event', 'phone_contact', {'send_to': 'G-Q7ZTBEQ2TB'});">
               <i class="bi bi-telephone me-2"></i> +223 83 42 44 09
             </a>
           </div>
@@ -588,7 +598,7 @@
 <a href="https://wa.me/22383424409?text=Bonjour%20GadgetBKO,%20je%20suis%20sur%20votre%20site%20et%20je%20m'intéresse%20au%20GPS%20SinoTrack%20au%20Mali" 
    class="whatsapp-float"
    aria-label="Contacter sur WhatsApp pour commander GPS Mali"
-   onclick="fbq('track', 'Lead');">
+   onclick="fbq('track', 'Lead'); gtag('event', 'whatsapp_float', {'send_to': 'G-Q7ZTBEQ2TB'});">
   <i class="bi bi-whatsapp"></i>
 </a>
 
@@ -600,6 +610,7 @@
   // Lazy loading amélioré
   document.addEventListener("DOMContentLoaded", function() {
     const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+    
     const imageObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -609,6 +620,7 @@
         }
       });
     });
+    
     lazyImages.forEach(img => imageObserver.observe(img));
   });
   
@@ -618,6 +630,7 @@
       e.preventDefault();
       const targetId = this.getAttribute('href');
       if(targetId === '#') return;
+      
       const targetElement = document.querySelector(targetId);
       if(targetElement) {
         window.scrollTo({
